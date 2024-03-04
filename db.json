@@ -1,0 +1,63 @@
+{
+  "getRemoteMarkdown": [
+    { "id": 1, "conent": "---
+title: Installation
+description: Get started with Nuxt Content by creating a new project or adding it to an existing Nuxt application.
+tdk: xxxxxxxx
+---
+
+<!--more-->
+
+Full amount of content beyond the more divider.
+
+::callout
+This is a `callout`{code:callout} with full **markdown** support. It can be used to link to [another page](/).
+::
+
+::callout{icon="i-heroicons-light-bulb"}
+This suggests a helpful tip.
+::
+
+::callout{icon="i-heroicons-exclamation-triangle" color="amber"}
+This raises a warning to watch out for.
+::
+
+::callout{icon="i-heroicons-light-bulb" to="https://nuxt.com" target="\_blank"}
+Check out this documentation.
+::
+
+::card
+---
+title: Components
+icon: i-heroicons-cube
+to: https://nuxt.com/docs/api/components/client-only
+target: _blank
+---
+Explore Nuxt built-in components for pages, layouts, head, and more.
+::
+
+
+<div class="py-2"></div>
+
+::card{title="Components" icon="i-heroicons-cube-transparent"}
+Discover all the components available in **Nuxt UI Pro**.
+::
+
+::code-group
+
+```bash [pnpm]
+pnpm add @nuxt/ui
+```
+
+```bash [yarn]
+yarn add @nuxt/ui
+```
+
+```bash [npm]
+npm install @nuxt/ui
+```
+
+::
+" }
+  ]
+}
